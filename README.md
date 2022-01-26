@@ -8,7 +8,6 @@ This repository is hold fetch api ( NodeJS + Express + AWS Congito)
 3. Use nvm to make a switch of node version
 4. run the app - node local.js | npm start
 
-
 # NodeJS #
 
 NodeJS - 
@@ -17,12 +16,10 @@ NodeJS -
 
 
 # Evaluation #
-• • Database design/ Data Structure. <br />
 • • API structure with appropriate standards. <br />
 • • Business Logic. <br />
 • • The scope provided for further added features. <br />
 • • API and code version support. <br />
-• • Logging and Documentation. <br />
 • • Quality of code. 
 
 # Steps to Test the Application
