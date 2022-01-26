@@ -80,11 +80,8 @@ const signUp = (name,email,password)=>{
 
 //Auth in cognito
 const login = (name,password)=>{
-
   return new Promise((resolve,reject)=>{
-
     try {
-
       const authenticationDetails = new AmazonCognitoId.AuthenticationDetails({
           Username : name,
           Password : password,
