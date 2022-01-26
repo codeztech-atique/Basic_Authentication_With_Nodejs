@@ -16,7 +16,7 @@ const apiRoutes = require('./routes/routes');
 
 
 app.use('/auth', authRoutes);
-app.use('/acuityscheduling', apiRoutes);
+app.use('/acuity/scheduling', apiRoutes);
 
 
 //Capture All 404 errors

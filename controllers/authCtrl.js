@@ -66,21 +66,15 @@ exports.login = async function(req, res){
   
       let { email, password } = body;
   
-      // try {
+      try {
         //Send to cognito the signup request.
         let result = await cognito.logIn(email, password);
-        // const superSecret = userType.indentifyUserRole(req.body.user_type);        
-
-        // // Generate Token
-        // const getToken = jwt.sign({ email: req.body.email }, superSecret, {expiresIn: '4h'});
-        // result['authtoken'] = getToken;
         res.status(200).json({"result": result});
-        // Generate Token
 
-      // } 
-      // catch(err){
-      //   res.status(400).json({"error":err});
-      // }
+      } 
+      catch(err){
+        res.status(400).json({"error":err});
+      }
   
     } else {
       res.status(400).json({"error":"bad format"});
