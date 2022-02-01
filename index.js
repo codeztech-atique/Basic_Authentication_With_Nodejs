@@ -11,11 +11,9 @@ app.options('*', cors());
 app.use(bodyparser.json({limit: '5mb', extended: true}))
 app.use(bodyparser.urlencoded({limit: '5mb', extended: true}))
 
-const authRoutes = require('./routes/authRoutes');
 const apiRoutes = require('./routes/routes');
 
 
-app.use('/auth', authRoutes);
 app.use('/acuity/scheduling', apiRoutes);
 
 

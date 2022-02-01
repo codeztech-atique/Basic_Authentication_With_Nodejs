@@ -1,0 +1,14 @@
+{
+    "success": {
+        "status200": {
+            "status": 200,
+            "message": "success !!!"
+        }
+    },
+    "fail": {
+        "unauthorized": {
+            "status": 401,
+            "message": "Unauthorized user !!!"
+        }
+    }
+}
