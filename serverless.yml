@@ -6,7 +6,6 @@ provider:
  memorySize: 512
  timeout: 15
  stage: production
- role: arn:aws:iam::485947658225:role/global_portal_client
  region: ap-south-1 # AWS region
 
 functions:
