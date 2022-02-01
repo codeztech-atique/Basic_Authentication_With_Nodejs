@@ -1,5 +1,6 @@
 exports.getEachAppointment = (req, res, next) => {
     try {
+        //axios https://acuityscheduling.com/api/v1/appointments/id
        res.send({
            data: {
             "id": 54321,
